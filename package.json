@@ -1,0 +1,33 @@
+{
+  "name": "IO.JS_SERVER",
+  "version": "1.0.0",
+  "description": "IO.JS with typescript and angular UI",
+  "main": "app.js",
+  "scripts": {
+    "start":"iojs app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "keywords": [
+    "Angular",
+    "nodejs"
+  ],
+  "author": "Jose-Pilar",
+  "license": "MIT",
+  "bugs": {
+    "url": "none"
+  },
+
+  "dependencies": {
+    "express": "4.8.0",
+    "body-parser" : "1.5.2",
+    "jade": "1.5.0",
+    "node-uuid": "~1.4.1"
+  },
+  "engines": {
+    "iojs": "2.2.1"
+  }
+}
